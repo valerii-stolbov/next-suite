@@ -1,0 +1,17 @@
+{
+  "name": "@next-suite/oxlint-config",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "exports": {
+    "./base": "./configs/base.js",
+    "./next": "./configs/next.js",
+    "./react": "./configs/react.js"
+  },
+  "devDependencies": {
+    "oxlint": "catalog:"
+  },
+  "peerDependencies": {
+    "oxlint": "^1.87.0"
+  }
+}
